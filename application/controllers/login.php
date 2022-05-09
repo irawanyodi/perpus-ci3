@@ -3,6 +3,6 @@ class Login extends CI_Controller
 {
     public function index()
     {
-        echo "nyoba dulu";
+        $this->load->view('v_login');
     }
 }
